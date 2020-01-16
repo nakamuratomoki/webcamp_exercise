@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+ 
+.header {
+  width: 100%; /* 横幅 */
+  height: 50px; /* 高さ */
+  background-color: red; /* 背景色 */
+}
+
+ 
+.main-visual {
+  width: 100%; /* 横幅 */
+  height: 500px; /* 高さ */
+  background-color: orange; /* 背景色 */
+}
+
+.main {
+  width: 840px; /* 横幅 */
+  background-color: green; /* 背景色 */
+  /* 中央寄せ（余白がないとできない） */
+  margin: 0 auto;
+}
+.blog {
+  width: 500px;
+  height: 1400px;
+  background-color: limegreen;
+  margin: 0 auto;
+   /* 要素を左揃えで並べる */
+}
+
+ 
+.footer {
+  width: 100%; /* 横幅 */
+  height: 100px; /* 高さ */
+  background-color: blue; /* 背景色 */
+}
